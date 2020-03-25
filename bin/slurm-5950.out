@@ -1,0 +1,183 @@
+[12:22:38 PM]: OS: debian 10.3, 20 cores, ~ 264 GB RAM. Python: 3.7.3
+[12:22:38 PM]: AMPtk v1.4.2, USEARCH v9.2.64, VSEARCH v2.10.4
+[12:22:38 PM]: Gzipped files detected, uncompressing
+[12:25:31 PM]: GTGARTCATCRARTYTTTG fwd primer not found in AMPtk primer db, assuming it is actual primer sequence.
+[12:25:31 PM]: CCTSCSCTTANTDATATGC rev primer not found in AMPtk primer db, assuming it is actual primer sequence.
+[12:25:31 PM]: Demuxing data using 20 cpus
+[12:25:31 PM]: Dropping reads less than 150 bp and setting lossless trimming to 300 bp.
+[12:25:31 PM]: Strip Primers and Merge PE reads. FwdPrimer: GTGARTCATCRARTYTTTG RevPrimer: CCTSCSCTTANTDATATGC
+-------------------------------------------------------
+     Progress: 0.00%      Progress: 2.94%      Progress: 4.41%      Progress: 4.41%      Progress: 4.41%      Progress: 4.41%      Progress: 4.41%      Progress: 4.41%      Progress: 4.41%      Progress: 4.41%      Progress: 4.41%      Progress: 4.41%      Progress: 4.41%      Progress: 8.82%      Progress: 8.82%      Progress: 10.29%      Progress: 10.29%      Progress: 10.29%      Progress: 10.29%      Progress: 11.76%      Progress: 11.76%      Progress: 11.76%      Progress: 11.76%      Progress: 14.71%      Progress: 16.18%      Progress: 16.18%      Progress: 17.65%      Progress: 17.65%      Progress: 19.12%      Progress: 22.06%      Progress: 25.00%      Progress: 25.00%      Progress: 25.00%      Progress: 26.47%      Progress: 26.47%      Progress: 27.94%      Progress: 29.41%      Progress: 30.88%      Progress: 32.35%      Progress: 35.29%      Progress: 35.29%      Progress: 36.76%      Progress: 36.76%      Progress: 36.76%      Progress: 38.24%      Progress: 38.24%      Progress: 39.71%      Progress: 41.18%      Progress: 42.65%      Progress: 44.12%      Progress: 44.12%      Progress: 47.06%      Progress: 47.06%      Progress: 48.53%      Progress: 48.53%      Progress: 48.53%      Progress: 50.00%      Progress: 51.47%      Progress: 51.47%      Progress: 51.47%      Progress: 52.94%      Progress: 55.88%      Progress: 57.35%      Progress: 58.82%      Progress: 58.82%      Progress: 60.29%      Progress: 60.29%      Progress: 61.76%      Progress: 63.24%      Progress: 64.71%      Progress: 64.71%      Progress: 64.71%      Progress: 66.18%      Progress: 67.65%      Progress: 67.65%      Progress: 67.65%      Progress: 70.59%      Progress: 72.06%      Progress: 73.53%      Progress: 73.53%      Progress: 73.53%      Progress: 77.94%      Progress: 79.41%      Progress: 80.88%      Progress: 82.35%      Progress: 82.35%      Progress: 82.35%      Progress: 83.82%      Progress: 85.29%      Progress: 86.76%      Progress: 86.76%      Progress: 86.76%      Progress: 88.24%      Progress: 89.71%      Progress: 89.71%      Progress: 89.71%      Progress: 91.18%      Progress: 91.18%      Progress: 92.65%      Progress: 92.65%      Progress: 95.59%      Progress: 95.59%      Progress: 95.59%      Progress: 95.59%      Progress: 97.06%      Progress: 97.06%      Progress: 97.06%      Progress: 97.06%      Progress: 98.53%      Progress: 98.53% [12:27:23 PM]: Concatenating Demuxed Files
+[12:27:45 PM]: 6,852,138 total reads
+[12:27:45 PM]: 6,836,715 Fwd Primer found, 6,798,576 Rev Primer found
+[12:27:45 PM]: 21,610 discarded Primer incompatibility
+[12:27:45 PM]: 22,310 discarded too short (< 150 bp)
+[12:27:45 PM]: 6,740,306 valid output reads
+[12:27:54 PM]: Found 68 barcoded samples
+                        Sample:  Count
+                         SCC1J:  172626
+                       SCH8O-1:  163800
+                          SD2O:  163191
+                         SCC7J:  162658
+                         SCH1J:  160130
+                          SD1J:  159649
+                         SCC7A:  153343
+                          SD2J:  151066
+                         SCC4A:  149607
+                         SCH2J:  141253
+                         SCH7J:  138222
+                         SCH7O:  137037
+                          SD5J:  136671
+                          SD6J:  136319
+                         SCC5A:  136099
+                         SCC2O:  135406
+                         SCH3O:  134466
+                       SCC7A-1:  132989
+                         SCC8A:  131602
+                         SCH8O:  130688
+                         SCH7A:  130625
+                         SCC6A:  129101
+                         SCH1O:  129062
+                         SCH8J:  126026
+                          SD6O:  126008
+                         SCC3A:  122810
+                          SD4J:  118648
+                          SD5A:  118000
+                         SCH4J:  117657
+                          SD1O:  114849
+                         SCH6J:  112031
+                          POS1:  109025
+                         SCH2O:  108962
+                          SD5O:  106489
+                         SCC1O:  103024
+                          SD4A:  101501
+                          POS2:  95575
+                         SCH6A:  92241
+                         SCH3J:  90886
+                         SCC5O:  86475
+                         SCC3O:  86257
+                          SD3A:  83205
+                         SCC3J:  82637
+                          SD3J:  79395
+                          SD1A:  78789
+                          SD2A:  76809
+                         SCH3A:  74453
+                          SD3O:  72415
+                         SCH8A:  68547
+                         SCC5J:  67781
+                         SCH5A:  65744
+                         SCC8O:  63441
+                        SD5J-1:  59403
+                         SCH5J:  58609
+                         SCH2A:  56307
+                        SD2J-1:  55841
+                          SD6A:  53242
+                         SCC8J:  52891
+                         SCH4A:  51811
+                         SCC6J:  51228
+                         SCH1A:  50923
+                         SCC2A:  47682
+                         SCC4J:  45107
+                         SCC2J:  44617
+                          SD4O:  42259
+                          NEG2:  3496
+                          NEG1:  884
+                         SCC6O:  716
+[12:28:05 PM]: Output file:  amptk.demux.fq.gz (467.7 MB)
+[12:28:05 PM]: Mapping file: amptk.mapping_file.txt
+-------------------------------------------------------
+-------------------------------------------------------
+
+Example of next cmd: amptk cluster -i amptk.demux.fq.gz -o out
+
+[12:28:09 PM]: OS: debian 10.3, 20 cores, ~ 264 GB RAM. Python: 3.7.3
+[12:28:09 PM]: AMPtk v1.4.2, USEARCH v9.2.64, VSEARCH v2.10.4
+[12:28:09 PM]: Loading FASTQ Records
+[12:30:45 PM]: 6,740,306 reads (467.7 MB)
+[12:30:45 PM]: Quality Filtering, expected errors < 1.0
+[12:33:48 PM]: 6,005,976 reads passed
+[12:33:48 PM]: De-replication (remove duplicate reads)
+[12:34:00 PM]: 678,217 reads passed
+[12:34:01 PM]: Clustering OTUs (UPARSE)
+[12:34:25 PM]: 5,204 OTUs
+[12:34:25 PM]: Cleaning up padding from OTUs
+[12:34:25 PM]: Chimera Filtering (VSEARCH) using ITS DB
+[12:34:57 PM]: 5,117 OTUs passed, 87 ref chimeras
+[12:34:57 PM]: Validating OTU orientation
+[12:34:59 PM]: 5,117 OTUs validated (0 dropped)
+[12:34:59 PM]: Mapping Reads to OTUs and Building OTU table
+[12:38:32 PM]: 6,216,534 reads mapped to OTUs (92%)
+-------------------------------------------------------
+-------------------------------------------------------
+OTU Clustering Script has Finished Successfully
+-------------------------------------------------------
+Clustered OTUs: cluster.cluster.otus.fa
+OTU Table: cluster.otu_table.txt
+-------------------------------------------------------
+
+Example of next cmd: amptk filter -i cluster.otu_table.txt -f cluster.cluster.otus.fa -b <mock barcode>
+
+[12:38:36 PM]: OS: debian 10.3, 20 cores, ~ 264 GB RAM. Python: 3.7.3
+[12:38:36 PM]: AMPtk v1.4.2, USEARCH v9.2.64, VSEARCH v2.10.4
+[12:38:36 PM]: Loading OTU table: ../data/cluster/cluster.otu_table.txt
+[12:38:36 PM]: OTU table contains 68 samples, 5,117 OTUs, and 6,216,534 reads counts
+[12:38:36 PM]: Sorting OTU table naturally
+[12:38:37 PM]: Normalizing OTU table to number of reads per sample
+[12:38:37 PM]: Overwriting auto detect index-bleed, setting to 0.500000%
+[12:38:53 PM]: Filtered OTU table contains 68 samples, 5,117 OTUs, and 6,190,452 read counts
+[12:38:53 PM]: Finding valid OTUs
+-------------------------------------------------------
+-------------------------------------------------------
+OTU Table filtering finished
+-------------------------------------------------------
+OTU Table Stats:      filter.stats.txt
+Sorted OTU table:     filter.sorted.txt
+Normalized/filter:    filter.normalized.txt
+Final Binary table:   filter.final.binary.txt
+Final OTU table:      filter.final.txt
+Filtered OTUs:        filter.filtered.otus.fa
+-------------------------------------------------------
+
+Example of next cmd: amptk taxonomy -f filter.filtered.otus.fa -i filter.final.txt -m mapping_file.txt -d ITS2
+
+[12:38:53 PM]: OS: debian 10.3, 20 cores, ~ 264 GB RAM. Python: 3.7.3
+[12:38:53 PM]: AMPtk v1.4.2, USEARCH v9.2.64, VSEARCH v2.10.4
+[12:38:53 PM]: Loading FASTA Records
+[12:38:53 PM]: 5,117 OTUs
+[12:38:53 PM]: Global alignment OTUs with usearch_global (VSEARCH) against ITS.udb
+[12:40:10 PM]: Classifying OTUs with UTAX (USEARCH)
+[12:40:10 PM]: Classifying OTUs with SINTAX (USEARCH)
+[12:40:36 PM]: Appending taxonomy to OTU table and OTUs
+[12:40:36 PM]: Found 1814 OTUs not matching Fungi, writing 3303 Fungi hits to taxonomy OTU table
+[12:40:36 PM]: Generating phylogenetic tree
+[12:40:58 PM]: Taxonomy finished: taxonomy.taxonomy.txt
+[12:40:58 PM]: Classic OTU table with taxonomy: taxonomy.otu_table.taxonomy.txt
+[12:41:16 PM]: BIOM OTU table created: taxonomy.biom
+[12:41:16 PM]: OTUs with taxonomy: taxonomy.otus.taxonomy.fa
+[12:41:16 PM]: OTU phylogeny: taxonomy.tree.phy
+-------------------------------------------------------
+-------------------------------------------------------
+FunGuild v1.0 Beta
+Downloading fungi database ...
+
+Reading in the OTU table: '../data/taxonomy/taxonomy.otu_table.taxonomy.txt'
+
+Searching the FUNGuild database...
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+
+Found 3559 matching taxonomy records in the database.
+Dereplicating and sorting the result...
+FunGuild tried to assign function to 3303 OTUs in '../data/taxonomy/taxonomy.otu_table.taxonomy.txt'.
+FUNGuild made assignments on 1811 OTUs.
+Result saved to 'funguild.guilds.txt'
+
+Total calculating time: 13.52 seconds.
