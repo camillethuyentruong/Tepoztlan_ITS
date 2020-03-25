@@ -8,6 +8,7 @@
 ehthumbs.db
 Thumbs.db
 
-# data directory #
+# ampk data and db directories #
 # ############## #
 /data
+/bin/ITS
