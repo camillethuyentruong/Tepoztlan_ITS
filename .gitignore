@@ -12,3 +12,5 @@ Thumbs.db
 # ############## #
 /data
 /bin/ITS
+/bin/slurm*
+
