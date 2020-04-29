@@ -1,10 +1,10 @@
 ## perform a fastQC analysis in each sample
 
-for i in $(ls ../data/raw/plate-144833689/); do
+for i in $(ls ../data/tepoz); do
 
 # fastqc analysis
-fastqc ../data/raw/plate-144833689/$i/*
+fastqc ../data/tepoz/$i/*
 # delete unneeded file
-rm ../data/raw/plate-144833689/$i/*.zip; done
+rm ../data/tepoz/$i/*.zip; done
 
 
