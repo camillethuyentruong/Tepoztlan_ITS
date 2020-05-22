@@ -11,7 +11,7 @@ Contains the scripts to analyse the mycobiome of samples obtained from soils
 
 #[AMPtk](https://amptk.readthedocs.io/en/latest/quick-start.html)(http://amptk.readthedocs.io/)
 
-Citation
+**Citation**
 
 Palmer JM, Jusino MA, Banik MT, Lindner DL. 2018. Non-biological synthetic spike-in controls and the AMPtk software pipeline improve mycobiome data. PeerJ 6:e4925; DOI 10.7717/peerj.4925.
 
@@ -42,16 +42,16 @@ The repository is organized as follows:
 
 Directory Tepoztlan_ITS/bin has all the scripts (numbered) and the R functions used for data analysis and plotting.
 
-##1. Script 0_quality_check.sh
+#1. Script 0_quality_check.sh
 
 Performs the fastQC analysis in each sample
 
 
-##2. Script  0_copytepozseqs.sh
+#2. Script  0_copytepozseqs.sh
 
 Copy all the Raw sequences with **.gz** extension from **/data/raw/run-144833689** to the folder **tepoz** located in **../data/tepoz/**
 
-##3. Script 01_cleaning.sh
+#3. Script 01_cleaning.sh
 
 This script cleans the sequences R1 & R2 using Trimmomatic and the Option SLIDINGWINDOW
 
