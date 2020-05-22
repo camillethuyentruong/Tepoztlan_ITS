@@ -1,13 +1,13 @@
 
 
 
-**NATIVE AND HYBRID CORN FUNGUS DIVERSITY ASSESSED THROUGH METABARCODING**
+## **NATIVE AND HYBRID CORN FUNGUS DIVERSITY ASSESSED THROUGH METABARCODING**
 
-AUTHOR: Biol. Olivia Rojo Nava
+*AUTHOR: Biol. Olivia Rojo Nava*
 
 Contains the scripts to analyse the mycobiome of samples obtained from soils
 
-*Programs needed
+# *Programs needed
 
 [AMPtk](https://amptk.readthedocs.io/en/latest/quick-start.html)(http://amptk.readthedocs.io/)
 
@@ -23,6 +23,8 @@ https://peerj.com/articles/4925/
 
 
 ## Directory organization
+
+Directory Tepoztlan_ITS/bin has all the scripts (numbered) and the R functions used for data analysis and plotting.
 
 The repository is organized as follows:
 
@@ -40,7 +42,6 @@ The repository is organized as follows:
 
 ```
 
-Directory Tepoztlan_ITS/bin has all the scripts (numbered) and the R functions used for data analysis and plotting.
 
 **1. Script 0_quality_check.sh**
 
