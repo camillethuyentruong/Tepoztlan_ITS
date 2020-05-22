@@ -1,8 +1,9 @@
 #!/bin/sh
 
+#This helps to run the script using the CONABIO cluster. For example the node4 was chosen, but this can chage depending on the workload in the  #server.
 
 #SBATCH -p cluster
-#SBATCH -w nodo4  ## Depending on the tasks assignments I can choose the node 
+#SBATCH -w nodo4 
 
 ##This script cleans the sequences R1 & R2 using Trimmomatic and the Option SLIDINGWINDOW
 
@@ -87,7 +88,7 @@ POS2_S33_L001_R1_001"
 #Loop created to clean the sequences R1 using a SLIDINGWINDOW 7:30 and get an appropriate FASTQC 
 
 for sample in filesforward; do
-java -jar trimmomatic-0.39.jar SE ../data/tepoz/${sample}.fastq.gz ../data/trimfilter/${sample}_trimmed.fastq.gz ILLUMINACLIP:adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:7:30
+echo java -jar trimmomatic-0.39.jar SE ../data/tepoz/${sample}.fastq.gz ../data/trimfilter/${sample}_trimmed.fastq.gz ILLUMINACLIP:adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:7:30
 done
 
 # Cleaning the Read R2_Reverse sequences
@@ -163,10 +164,10 @@ POS2_S33_L001_R2_001"
 #Loop created to clean the sequences R2 using a SLIDINGWINDOW 7:30 and get an appropriate FASTQC
 
 for sample in filesreverse; do
-java -jar trimmomatic-0.39.jar SE ../data/tepoz/${sample}.fastq.gz ../data/trimfilter/${sample}_trimmed.fastq.gz ILLUMINACLIP:adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:7:30
+echo java -jar trimmomatic-0.39.jar SE ../data/tepoz/${sample}.fastq.gz ../data/trimfilter/${sample}_trimmed.fastq.gz ILLUMINACLIP:adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:7:30
 done
 
-#To perform the fastqc for R1 and R2
+#To perform the fastqc for R1 and R2 sequences
 
 fastqc ../data/trimfilter/*.fastq.gz
 
