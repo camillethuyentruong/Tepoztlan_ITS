@@ -5,7 +5,7 @@
 
 *AUTHOR: Biol. Olivia Rojo Nava*
 
-Contains the scripts to analyse the mycobiome of samples obtained from soils
+Contains the scripts to analyse the mycobiome of samples obtained from soil
 
 ## **Programs needed**
 
