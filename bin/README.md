@@ -1,13 +1,13 @@
 
 
 
-## **NATIVE AND HYBRID CORN FUNGUS DIVERSITY ASSESSED THROUGH METABARCODING**
+# **NATIVE AND HYBRID CORN FUNGUS DIVERSITY ASSESSED THROUGH METABARCODING**
 
 *AUTHOR: Biol. Olivia Rojo Nava*
 
 Contains the scripts to analyse the mycobiome of samples obtained from soils
 
-# *Programs needed
+## **Programs needed**
 
 [AMPtk](https://amptk.readthedocs.io/en/latest/quick-start.html)(http://amptk.readthedocs.io/)
 
