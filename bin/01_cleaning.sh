@@ -84,9 +84,10 @@ NEG2_S45_L001_R1_001
 POS1_S30_L001_R1_001
 POS2_S33_L001_R1_001"
 
+#Loop created to clean the sequences R1 using a SLIDINGWINDOW 7:30 and get an appropriate FASTQC 
 
 for sample in filesforward; do
-java -jar trimmomatic-0.39.jar SE ../data/tepoz/${sample}.fastq.gz ../data/trimfilter/${sample}_trimmed.fastq.gz ILLUMINACLIP:adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:7:20
+java -jar trimmomatic-0.39.jar SE ../data/tepoz/${sample}.fastq.gz ../data/trimfilter/${sample}_trimmed.fastq.gz ILLUMINACLIP:adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:7:30
 done
 
 # Cleaning the Read R2_Reverse sequences
@@ -159,6 +160,7 @@ NEG2_S45_L001_R2_001
 POS1_S30_L001_R2_001
 POS2_S33_L001_R2_001"
 
+#Loop created to clean the sequences R2 using a SLIDINGWINDOW 7:30 and get an appropriate FASTQC
 
 for sample in filesreverse; do
 java -jar trimmomatic-0.39.jar SE ../data/tepoz/${sample}.fastq.gz ../data/trimfilter/${sample}_trimmed.fastq.gz ILLUMINACLIP:adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:7:30
