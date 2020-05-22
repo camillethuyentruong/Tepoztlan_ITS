@@ -13,7 +13,7 @@
 
 # Pre-processing FASTQ files (forwards and reverse)
 
-amptk illumina -i ../data/tepoz -o amptk/ -f GTGARTCATCRARTYTTTG -r CCTSCSCTTANTDATATGC -l 300 --min_len 150 --full_length --cleanup
+amptk illumina -i ../data/trimfilter -o amptk/ -f GTGARTCATCRARTYTTTG -r CCTSCSCTTANTDATATGC -l 300 --min_len 150 --full_length --cleanup
 
 # --min_len: minimum lenght of sequences = 150 bp ; -l: max lenght = 300
 # -f primer forward = gITS7ngs
