@@ -34,7 +34,7 @@ The repository is organized as follows:
 |            +-- 2_copytepozseqs.sh
 |            +-- 3_cleaning.sh
 |            +-- 4_amptkillumina.sh
-|            +-- README.md
+
 | +--data/
 |            +--
 | +--figures/
