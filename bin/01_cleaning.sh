@@ -1,9 +1,12 @@
 #!/bin/sh
 
-#This helps to run the script using the CONABIO cluster. For example the node4 was chosen, but this can chage depending on the workload in the  #server.
+#This helps to run the script using the CONABIO cluster.
+#For example the node4 was chosen, but this can chage depending on the workload in the  server.
+
 
 #SBATCH -p cluster
 #SBATCH -w nodo4 
+
 
 ##This script cleans the sequences R1 & R2 using Trimmomatic and the Option SLIDINGWINDOW
 
@@ -85,10 +88,10 @@ NEG2_S45_L001_R1_001
 POS1_S30_L001_R1_001
 POS2_S33_L001_R1_001"
 
-#Loop created to clean the sequences R1 using a SLIDINGWINDOW 7:30 and get an appropriate FASTQC 
+#Loop created to clean the sequences R1 using a SLIDINGWINDOW 7:20 and get an appropriate FASTQC 
 
 for sample in $filesforward; do
-java -jar trimmomatic-0.39.jar SE ../data/tepoz/${sample}.fastq.gz ../data/trimfilter/${sample}_trimmed.fastq.gz ILLUMINACLIP:adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:7:30
+java -jar trimmomatic-0.39.jar SE ../data/tepoz/${sample}.fastq.gz ../data/trimfilter/${sample}_trimmed.fastq.gz ILLUMINACLIP:adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:7:20
 done
 
 # Cleaning the Read R2_Reverse sequences

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH -p cluster 
-#SBATCH -w nodo7
+#SBATCH -w nodo4
 
 # Script to process demultiplexed Illumina MiSeq 2x300 read, using the amptk pipeline
 
