@@ -6,7 +6,7 @@
 mkdir -p ../data/tepoz
 
 ##STEP 2
-#Copy sequences
+#Copy sequences to tepoz directory
 
 cp ../data/raw/run-144833689/SCC*/*.gz ../data/tepoz
 cp ../data/raw/run-144833689/SCH*/*.gz ../data/tepoz
@@ -15,5 +15,6 @@ cp ../data/raw/run-144833689/NEG*/*.gz ../data/tepoz
 cp ../data/raw/run-144833689/POS*/*.gz ../data/tepoz
 
 #STEP 3  To verify the  number of samples is correct. I must have 136 samples((66 + 2 controls)*2)  
+
 ls ../data/tepoz/ | wc
 
